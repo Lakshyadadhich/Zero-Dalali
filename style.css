@@ -737,7 +737,7 @@ scale: 1;
   height: 400px;
   width: 100%;
   margin-top: 5rem;
-  color: black;
+  color: #acff38;
   /* Change text color to black */
   border-radius: 10px;
   /* Adjust the value to control the roundness of the corners */
@@ -752,7 +752,7 @@ scale: 1;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(172, 255, 56, 0.6);
+  background-color: rgba(12, 12, 12, 0.6);
 }
 
 .withdraw .text-s {
