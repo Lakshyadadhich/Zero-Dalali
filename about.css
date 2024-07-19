@@ -1,3 +1,6 @@
+body{
+    font-family: 'rubik';
+}
 .about-heading {
     background-image: url(/Images/First-Banner.png);
     background-size: cover;
@@ -10,6 +13,8 @@
     text-align: center;
     color: white;
     padding-top: 10rem; /* Adjust padding as needed */
+    font-size: 7rem;
+    font-weight: bold;
 }
 
 .expe {
@@ -227,17 +232,107 @@
 }
 
 
-.whydalali{
+
+/* why dalai */
+.whydalali {
     background-image: url(/Images/Center-Color-Banner.png);
     color: white;
-    
-
-
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center align text */
 }
-.whydalali h1{
-    text-align: center;
+
+.whydalali h1 {
     font-size: 3rem;
     font-weight: bolder;
-    padding-top: 3rem;
+    margin-bottom: 20px; /* Space between heading and content */
 }
+
+.content-wrapper {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    gap: 20px; /* Add space between upper and lower sections */
+    align-items: center; /* Center align items horizontally */
+}
+
+.upperdiv {
+    display: flex;
+    justify-content: space-between; /* Space out children to the left and right */
+    align-items: center; /* Align items vertically center */
+    width: 100%; /* Ensure full width of the container */
+}
+
+.leftimg {
+    flex: 1; /* Allow the image container to take up some space */
+    margin-right: 10px; /* Space between image and right content */
+    padding-top: 5rem;
+    margin-left: -5rem;
+
+}
+
+.leftimg img {
+    max-width: 400px; /* Set a specific maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
+   
+}
+
+.rightcontent {
+    flex: 2; /* Allow the text content to take up more space */
+    max-width: 450px; /* Limit width of text content */
+    text-align: left; /* Align text to the left */
+    max-height: max-content;
+    margin-right: 7rem;
+}
+
+.lowerdiv {
+    max-width: 800px; /* Limit width of lower content */
+    text-align: center; /* Center text inside lowerdiv */
+}
+
+
+.diver img {
+    height: 3rem;
+    width: 3rem;
+    margin-left: -4rem;
+    margin-top: -6rem;
+   
+
+}
+
+.diver2 img {
+    height: 3rem;
+    width: 3rem;
+    margin-left: -4rem;
+    margin-bottom: -9rem;
+    
+   
+   
+
+}
+
+.lowerdiv {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out children to the left and right */
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px; /* Add padding for spacing */
+    gap: 20px; /* Add space between left and right content */
+}
+
+.lowerdivrigt, .lowerdivleft {
+    flex: 1; /* Allow both divs to grow equally */
+    padding: 10px; /* Add padding inside the divs */
+    box-sizing: border-box; /* Include padding in the width */
+    
+}
+
+.lowerdivrigt {
+    /* Additional styles for the right side content if needed */
+    text-align: right; /* Align text to the right */
+}
+
+.lowerdivleft {
+    /* Additional styles for the left side content if needed */
+    text-align: left; /* Align text to the left */
+}
+
 

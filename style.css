@@ -28,7 +28,7 @@ nav {
 }
 
 .logo img {
-  height: 50px;
+  height: 70px;
   /* Adjust the height as needed */
   margin-right: 10px;
   /* Space between the logo and text */
@@ -464,40 +464,7 @@ scale: 1;
   }
 }
 
-/* .payment {
-        background-image: url('/Images/beautiful-cryptocurrwncy-concept.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
-        /* Ensure proper stacking context 
-    }
 
-    .mask {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.8);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        /* Align text content center 
-        padding: 20px;
-        /* Adjust padding as needed 
-        box-sizing: border-box;
-        /* Include padding in width and height 
-    }
-
-    .mask .text-white {
-        z-index: 1;
-        /* Ensure text appears above the background image 
-        position: relative;
-        /* Maintain stacking context 
-    } */
 
 .payment {
   background-image: url("/Images/beautiful-cryptocurrwncy-concept.jpg");
@@ -820,12 +787,12 @@ scale: 1;
 }
 
 .rounded-card:nth-of-type(3) .text-mask {
-  background: linear-gradient(to bottom, rgba(172, 255, 56, 0) 0%, rgba(172, 255, 56, 0.75) 100%);
+  background: linear-gradient(to bottom, rgba(172, 255, 56, 0) 0%, rgba(172, 255, 56, 0.50) 100%);
 }
 
-.rounded-card:nth-of-type(4) .text-mask {
+/* .rounded-card:nth-of-type(4) .text-mask {
   background: linear-gradient(to bottom, rgba(172, 255, 56, 0) 0%, rgba(172, 255, 56, 0.75) 100%);
-}
+} */
 
 
 
