@@ -23,12 +23,21 @@
     height: 40rem; /* Adjust height based on content */
     color: white; /* Set text color */
     padding: 2rem; /* Add padding for spacing */
-    overflow: auto;
 }
 
 .text-content {
     max-width: 50%; /* Adjust width of text content */
-    padding: 0 2rem; /* Adjust padding as needed */
+    padding: 2rem; /* Adjust padding as needed */
+    margin: 2rem;
+}
+
+.text-content p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.text-content h1 {
+    margin-bottom: 1rem;
 }
 
 .image-content {
@@ -38,13 +47,12 @@
     justify-content: space-between; /* Space images evenly across the row */
     align-items: center; /* Align items vertically */
     gap: 2rem; /* Adjust gap between images */
-    margin-top: -5rem; /* Add margin to separate from text */
-
+    margin-top: -13rem; /* Add margin to separate from text */
 }
 
 .image {
     width: 200px; /* Set a fixed width for smaller size */
-    height: 200px; /* Maintain aspect ratio */
+    height: 160px; /* Maintain aspect ratio */
     border-radius: 10px; /* Rounded corners */
     overflow: hidden; /* Hide overflow to round corners properly */
 }
@@ -54,7 +62,6 @@
     height: 100%; /* Ensure images fill their containers */
     object-fit: cover; /* Maintain aspect ratio */
     border-radius: 10px; /* Rounded corners */
-
 }
 
 .image3 {
@@ -62,14 +69,13 @@
     top: 160%; /* Adjust positioning relative to image-content */
     left: 70%; /* Center horizontally */
     transform: translate(-1%, -20%); /* Center vertically and horizontally */
-    width: 200px; /* Set a fixed width for smaller size */
-    height: 200px; /* Maintain aspect ratio */
+    width: 25rem; /* Set a fixed width for smaller size */
+    height: 250px; /* Maintain aspect ratio */
     border-radius: 10px; /* Rounded corners */
     overflow: hidden; /* Hide overflow to round corners properly */
-   margin-top: -1rem;
-    margin-left: 2rem;
-   padding-bottom: 3rem;
-
+    margin-top: -7rem;
+    margin-left: -4rem;
+    padding-bottom: 3rem;
 }
 
 .image3 img {
@@ -79,14 +85,159 @@
     border-radius: 10px; /* Rounded corners */
 }
 
-
 .imagediv {
-    width: 100vw ;
+    width: 100vw;
     overflow: hidden;
-  margin-left: -5rem;
+    margin-left: -5rem;
 }
+
 .imagediv img {
     width: 100vw;
     height: auto;
     display: block;
 }
+
+.dollar {
+    position: absolute; /* Position relative to the container */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    width: 300px; /* Set a fixed width for the image */
+    height: 300px; /* Set a fixed height for the image */
+    margin: 1rem; /* Add margin for spacing */
+    
+}
+
+.dollar img {
+    width: 100%; /* Ensure image fills its container */
+    height: 100%; /* Ensure image fills its container */
+    object-fit: contain; /* Maintain aspect ratio */
+    margin-top: 43rem;
+    margin-left: 20rem;
+}
+
+
+/* Security */
+
+.security {
+    background: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text-content2 {
+   
+    width: 40rem;
+    margin-left: 8rem;
+}
+
+.text-content2 h1 {
+    padding-top: 6rem;
+    font-size: 3rem;
+}
+
+.text-content2 p {
+    padding-top: 1rem;
+}
+
+/* Remove list styling and add custom icon */
+.text-content2 ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+}
+
+.text-content2 li {
+    position: relative;
+    padding-left: 2.5rem; /* Adjust padding for icon space */
+    margin-bottom: 0.5rem;
+}
+
+
+.image-content2 {
+    position: relative;
+}
+
+.sec-img-1 img{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 7rem;
+    margin-top: 15rem;
+
+}
+
+.sec-img-2 img{
+    height: 150px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: -6rem;
+    margin-left: -3rem;
+    
+}
+
+.sec-img-3 img{
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: -22rem;
+    margin-right: -5rem;
+    margin-left: 10rem;             
+   
+    
+}
+
+/*  questions  */
+.ques {
+    background-color: rgb(31, 31, 31); /* Set background color to grey */
+    color: white; /* Ensure text color remains white */
+    padding: 20px; /* Add padding for better spacing */
+    text-align: center; /* Center align the text */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.ques h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.ques p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem; /* Add space below the paragraph */
+}
+.questions {
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding: 5px 0;
+    width: 40rem;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+.questions i {
+    margin: 0 10px; /* Adjust spacing around the icons */
+}
+
+
+.whydalali{
+    background-image: url(/Images/Center-Color-Banner.png);
+    color: white;
+    
+
+
+}
+.whydalali h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 3rem;
+}
+
